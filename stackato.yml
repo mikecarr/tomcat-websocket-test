@@ -1,0 +1,7 @@
+app-dir: target
+disk: 2048
+framework:
+  type: java_web
+instances: 1
+memory: 512
+name: tomcat-websocket-test
