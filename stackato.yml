@@ -5,3 +5,6 @@ framework:
 instances: 1
 memory: 512
 name: tomcat-websocket-test
+url:
+-  http://${name}.${target-base}
+-  http://${name}.runq-sbx-ws.qualcomm.com
