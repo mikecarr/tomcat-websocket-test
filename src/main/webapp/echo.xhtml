@@ -107,9 +107,9 @@
 
         function updateTarget(target) {
             if (window.location.protocol == 'http:') {
-                document.getElementById('target').value = 'ws://' + window.location.host + target;
+                document.getElementById('target').value = 'ws://' + window.location.host + target + '/';
             } else {
-                document.getElementById('target').value = 'wss://' + window.location.host +  target;
+                document.getElementById('target').value = 'wss://' + window.location.host +  target + '/';
             }
         }
 
