@@ -1,6 +1,6 @@
 ## tomcat-websocket-test
 
-Java Websocket Testapp
+Java Websocket test app
 
 ### Reference
 
